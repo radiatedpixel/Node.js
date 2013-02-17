@@ -1,0 +1,19 @@
+.googleFont {
+  font-family: 'Droid Serif';
+}
+body {
+  font-family: 'Droid Serif';
+  background: #333333;
+}
+body > header {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 18pt;
+  height: 4em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,22 @@
+
+.rounded_corners(@radius: 10px){
+  -moz-border-radius   :  @radius;
+  -webkit-border-radius:  @radius;
+  border-radius        :  @radius;
+}
+.shadows(@rad1: 0px, @rad2: 1px, @rad3: 3px, @color: #999){
+  -webkit-box-shadow   :  @rad1 @rad2 @rad3 @color;
+  -moz-box-shadow      :  @rad1 @rad2 @rad3 @color;
+  box-shadow           :  @rad1 @rad2 @rad3 @color;
+}
+
+.gradient (@type: linear, @pos1: left top, @pos2: left bottom, @color1: #f5f5f5, @color2: #ececec){
+  background-image     :  -webkit-gradient(@type, @pos1, @pos2, from(@color1), to(@color2));
+  background-image     :  -moz-linear-gradient(@color1, @color2);
+}
+.googleFont{
+  font-family          :  'Droid Serif';
+}
+.bg(@value){
+  background: @value;
+}

@@ -1,0 +1,12 @@
+{
+	"name": "1_felix-couchdb",
+	"description": "A package testing felix couchdb with express",
+	"author" : "Node",
+	"version" : "0.0.1",
+	"dependencies": {
+		"express": ">= 3.1.0",
+		"less": ">= 1.3.3",
+		"felix-couchdb": ">= 1.0.6",
+		"jade": ">=0.28.1"
+	}
+}
