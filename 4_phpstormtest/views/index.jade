@@ -6,5 +6,12 @@
    To change this template use File | Settings | File Templates.
 extends layout
 block mainContent
-    h1 Welcome to #{title}
-    a(href='http://www.radiatedpixel.com/') Radiated Pixel
+    h1 Hi!
+    unless userName
+        #login
+            form(method='post')
+                div
+                    input(type='text', name='username')
+                    input(type='submit', value='Log In')
+    else
+        h1 Welcome #{userName}
